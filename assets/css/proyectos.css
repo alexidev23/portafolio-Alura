@@ -1,0 +1,251 @@
+/*======== Portafolio ========*/
+
+#Portafolio {
+  height: 138vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 1436px;
+}
+
+.titulo {
+  font-size: 3.5rem;
+  font-weight: 500;
+  color: #609dfa;
+  text-align: center;
+  margin-top: 480px;
+}
+
+.caja {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 15px;
+  width: 850px;
+}
+
+.proyecto {
+  height: 350px;
+  width: 400px;
+  overflow: hidden;
+  border-radius: 40px;
+  background-color: #142b3d;
+  margin-bottom: 15px;
+}
+
+.imagen {
+  height: 180px;
+}
+
+.imagen img {
+  height: 180px;
+  width: 100%;
+}
+
+.informacion {
+  height: 170px;
+  display: flex;
+  flex-direction: column;
+}
+
+.informacion p {
+  font-size: 24px;
+  font-weight: 500;
+  color: #c8cdd0;
+  margin: 10px 15px 0;
+}
+
+.caja-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.caja-info p {
+  font-size: 14px;
+}
+
+.skills-proyecto {
+  display: flex;
+  gap: 10px;
+  margin-left: 15px;
+}
+
+.skills-proyecto .html {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 4px 6px;
+  border-radius: 10px;
+  background-color: #e25729;
+}
+
+.skills-proyecto .css {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 4px 6px;
+  border-radius: 10px;
+  background: #0792ce;
+}
+
+.skills-proyecto .javascript {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 4px 6px;
+  border-radius: 10px;
+  background: #e4b138;
+}
+
+.skills-proyecto .python {
+  color: #142b3d;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 4px 6px;
+  border-radius: 10px;
+  background: rgb(58, 117, 157);
+  background: linear-gradient(
+    90deg,
+    rgba(58, 117, 157, 1) 29%,
+    rgba(242, 203, 84, 1) 67%
+  );
+}
+
+.skills-proyecto .django {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 4px 6px;
+  border-radius: 10px;
+  background-color: #083b2a;
+}
+
+.skills-proyecto .bootstrap {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 4px 6px;
+  border-radius: 10px;
+  background-color: #6c2ee7;
+}
+
+.enlace {
+  display: flex;
+  gap: 10px;
+  margin: auto;
+}
+
+.enlace i {
+  font-size: 20px;
+}
+
+.enlace a:hover {
+  transform: scale(1.4);
+  transition: all ease 0.4s;
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  /*======== Portafolio ========*/
+
+  #Portafolio {
+    height: 180vh;
+    top: 3136px;
+  }
+
+  .titulo {
+    margin-top: 680px;
+  }
+
+  .caja {
+    max-width: 750px;
+    padding: 8px;
+    justify-content: center;
+  }
+
+  .proyecto {
+    height: 540px;
+    width: 550px;
+    overflow: hidden;
+    background-color: #142838;
+    border-radius: 20px;
+  }
+
+  .imagen {
+    height: 260px;
+  }
+
+  .imagen img {
+    height: 260px;
+  }
+
+  .informacion {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+  }
+
+  .informacion p {
+    font-size: 28px;
+    font-weight: 500;
+    color: #c8cdd0;
+  }
+
+  .skills-proyecto img {
+    height: 30px;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  /*======== Portafolio ========*/
+
+  #Portafolio {
+    height: 200vh;
+    justify-content: flex-start;
+    top: 1588px;
+  }
+
+  .titulo {
+    font-size: 2rem;
+    margin-top: 100px;
+  }
+
+  .caja {
+    max-width: 390px;
+    padding: 8px;
+    justify-content: center;
+  }
+
+  .proyecto {
+    height: 360px;
+    width: 320px;
+    overflow: hidden;
+    background-color: #142838;
+    border-radius: 20px;
+  }
+
+  .imagen {
+    height: 160px;
+  }
+
+  .imagen img {
+    height: 160px;
+  }
+
+  .informacion {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .informacion p {
+    font-size: 20px;
+    color: #c8cdd0;
+  }
+}

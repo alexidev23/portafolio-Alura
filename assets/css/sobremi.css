@@ -1,0 +1,173 @@
+/*======== Sobre Mi ========*/
+
+#Sobremi {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 718px;
+}
+
+#Titulo {
+  font-size: 3.5rem;
+  font-weight: 500;
+  color: #609dfa;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.img-principal {
+  height: 350px;
+  border-radius: 30%;
+  margin-top: 20px;
+}
+
+.texto {
+  max-width: 500px;
+  text-align: justify;
+  margin-top: 20px;
+}
+
+.info {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #c8cdd0;
+  padding: 5px;
+  margin-top: 8px;
+}
+
+.skills-titulo {
+  font-size: 2.3rem;
+  font-weight: 500;
+  text-align: center;
+  color: #609dfa;
+  margin: 8px 0;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 60px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.cv {
+  background-color: #003077;
+  margin: 50px auto;
+  height: 60px;
+  width: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 32px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.cv:hover {
+  background-color: #1a58b6;
+  transition: all 0.9s;
+}
+
+.cv a {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-decoration: none;
+  color: #c8cdd0;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.cv a:hover {
+  color: #a8a9aa;
+  transition: all 0.9s;
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+
+  /*======== Sobre Mi ========*/
+
+  #Sobremi {
+    top: 1368px;
+  }
+
+  .texto {
+    max-width: 600px;
+  }
+
+  .info {
+    font-size: 1.4rem;
+    padding: 9px 10px;
+    font-weight: 500;
+  }
+
+  .skills-titulo {
+    margin: 30px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  /*======== Sobre Mi ========*/
+
+  #Sobremi {
+    justify-content: flex-start;
+    top: 844px;
+  }
+
+  #Titulo {
+    margin-top: 170px;
+    font-size: 2rem;
+  }
+
+  .img-principal {
+    display: none;
+  }
+
+  .texto {
+    max-width: 390px;
+    padding: 20px;
+  }
+
+  .info {
+    color: #c8cdd0;
+    font-size: 18px;
+    padding: 9px 10px;
+    font-weight: 500;
+  }
+
+  .skills-titulo {
+    font-size: 1.8rem;
+    text-align: center;
+    font-weight: 700;
+    color: #609dfa;
+    margin: 20px 0;
+    text-transform: uppercase;
+  }
+
+  .skills {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+  }
+
+  .skills .items {
+    height: 30px;
+  }
+}

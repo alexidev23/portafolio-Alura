@@ -1,0 +1,189 @@
+/*======== Contacto ========*/
+
+#Contacto {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 2908px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.formulario {
+  height: 420px;
+  width: 400px;
+  margin: 20px 0;
+  background-color: #142b3d;
+  border-radius: 40px;
+}
+
+form {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+label {
+  color: #c8cdd0;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 6px 12px;
+}
+
+.form-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-input input {
+  background-color: #243e64;
+  color: #c8cdd0;
+  height: 40px;
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+  font-size: 16px;
+}
+
+.form-input input::placeholder {
+  color: #c8cdd0;
+  font-size: 16px;
+}
+
+.form-textarea {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-textarea textarea {
+  height: 120px;
+  background-color: #243e64;
+  color: #c8cdd0;
+  resize: none;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.form-textarea textarea::placeholder {
+  color: #c8cdd0;
+  font-size: 16px;
+}
+
+.btnEnviar {
+  background-color: #113b79;
+  color: #c8cdd0;
+  font-weight: 500;
+  height: 50px;
+  border-radius: 20px;
+  border: 1px #113b79 solid;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.btnEnviar:hover {
+  background-color: #00265f;
+  color: #8a9aa7;
+  transition: all 0.9s;
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  /*======== Contacto ========*/
+
+  #Contacto {
+    top: 6000px;
+  }
+
+  .formulario {
+    height: 440px;
+  }
+
+  .form-input input {
+    height: 50px;
+  }
+
+  .btnEnviar {
+    height: 50px;
+    margin-top: 20px;
+  }
+
+  .btnEnviar:active {
+    background-color: #00265f;
+    color: #8a9aa7;
+    transition: all 0.9s;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /*======== Contacto ========*/
+
+  #Contacto {
+    justify-content: flex-start;
+    top: 3776px;
+  }
+
+  .mis-redes {
+    display: flex;
+    flex-direction: column;
+    margin-top: 18px;
+    max-width: 390px;
+  }
+
+  .formulario {
+    max-width: 340px;
+    height: 430px;
+    padding: 18px;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
+
+  form {
+    padding: 0;
+  }
+
+  .form-input {
+    display: flex;
+    justify-content: center;
+  }
+
+  .form-input input {
+    width: 300px;
+    height: 50px;
+    margin-top: 0;
+    font-size: 18px;
+  }
+
+  .form-input input::placeholder {
+    font-size: 18px;
+  }
+
+  .form-textarea {
+    display: flex;
+    justify-content: center;
+  }
+
+  .form-textarea textarea {
+    width: 300px;
+    height: 120px;
+    font-size: 18px;
+  }
+
+  .form-textarea textarea::placeholder {
+    font-size: 18px;
+  }
+
+  .btnEnviar {
+    height: 50px;
+  }
+
+  .btnEnviar:active {
+    background-color: #00265f;
+    color: #8a9aa7;
+    transition: all 0.9s;
+  }
+}
