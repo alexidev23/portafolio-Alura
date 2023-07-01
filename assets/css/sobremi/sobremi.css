@@ -134,7 +134,7 @@
 
   .cv {
     height: 100px;
-    width: 300px;
+    width: 400px;
   }
 
   .cv a {
@@ -143,8 +143,6 @@
 }
 
 @media screen and (max-width: 767px) {
-
-  /*======== Sobre Mi ========*/
 
   #Sobremi {
     justify-content: flex-start;

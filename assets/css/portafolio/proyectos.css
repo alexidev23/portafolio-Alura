@@ -1,4 +1,3 @@
-/*======== Portafolio ========*/
 #Portafolio {
   height: auto;
   width: 100%;
@@ -86,8 +85,8 @@
 
 .html {
   background-image: url(../../img/html5.svg);
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -95,8 +94,8 @@
 
 .css {
   background-image: url(../../img/css.svg);
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -104,8 +103,8 @@
 
 .javascript {
   background-image: url(../../img/javascript.svg);
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -113,8 +112,8 @@
 
 .python {
   background-image: url(../../img/python.webp);
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -122,8 +121,8 @@
 
 .django {
   background-image: url(../../img/django.svg);
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -131,8 +130,8 @@
 
 .bootstrap {
   background-image: url(../../img/bootstrap.svg);
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -170,7 +169,7 @@
   }
 
   .tarjeta {
-    width: 760px;
+    width: 700px;
     height: 400px;
   }
 
@@ -186,6 +185,37 @@
   .tarjeta__description {
     font-size: 1.8rem;
   }
+  
+  .html {
+    height: 45px;
+    width: 45px;
+  }
+  
+  .css {
+    height: 45px;
+    width: 45px;
+  }
+  
+  .javascript {
+    height: 45px;
+    width: 45px;
+  }
+  
+  .python {
+    height: 45px;
+    width: 45px;
+  }
+  
+  .django {
+    height: 45px;
+    width: 45px;
+  }
+  
+  .bootstrap {
+    height: 45px;
+    width: 45px;
+  }
+  
 
   .links__proyectos a i {
     font-size: 3rem;
@@ -199,7 +229,7 @@
   #Portafolio {
     height: 200vh;
     justify-content: flex-start;
-    top: 1260px;
+    top: 1460px;
   }
 
   .proyectos {

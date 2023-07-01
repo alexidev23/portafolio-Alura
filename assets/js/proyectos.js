@@ -10,7 +10,7 @@ const Proyecto = [
     },
     {
         id: 'img2',
-        titulo: 'calculadora',
+        titulo: 'Calculadora',
         imagen: '../../assets/img/proyectos/calculadora.webp',
         descripcion: 'Es una app de una calculadora',
         tecnologias: ['html','css','javascript'],
@@ -28,9 +28,9 @@ const Proyecto = [
     },
     {
         id: 'img4',
-        titulo: 'Proyecto admin gym',
+        titulo: 'Pagina de administracion de gym',
         imagen: '../../assets/img/proyectos/gymadmin.webp',
-        descripcion: 'Este es un segundo proyecto realizado para reforzar los conocimientos es una wep para un gimnasio para la administracion del mismo donde puede administrar los alumnos, cursos y los profesores ',
+        descripcion: 'Pagina wep para un gimnasio para la administracion de los alumnos, cursos y los profesores ',
         tecnologias: ['python','django','bootstrap'],
         urlGit: 'https://github.com/alexidev23/page-admin-gym',
         urlPage: false

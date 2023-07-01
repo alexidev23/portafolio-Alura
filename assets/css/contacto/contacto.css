@@ -51,7 +51,7 @@ label {
   padding: 10px;
   border: none;
   font-size: 16px;
-  outline: none;
+  font-weight: 500;
 }
 
 input:focus, textarea:focus{
@@ -61,6 +61,7 @@ input:focus, textarea:focus{
 .form-input input::placeholder {
   color: #c8cdd0;
   font-size: 16px;
+  font-weight: 500;
 }
 
 .form-textarea {
@@ -77,11 +78,13 @@ input:focus, textarea:focus{
   padding: 10px;
   border-radius: 10px;
   font-size: 16px;
+  font-weight: 500;
 }
 
 .form-textarea textarea::placeholder {
   color: #c8cdd0;
   font-size: 16px;
+  font-weight: 500;
 }
 
 .btnEnviar {
@@ -92,7 +95,7 @@ input:focus, textarea:focus{
   border-radius: 20px;
   border: 1px #113b79 solid;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 2.3rem;
   margin-top: 10px;
 }
 
@@ -106,7 +109,7 @@ input:focus, textarea:focus{
   /*======== Contacto ========*/
 
   #Contacto {
-    height: 80vh;
+    height: 100vh;
     top: 4790px;
   }
 
@@ -115,22 +118,49 @@ input:focus, textarea:focus{
   }
 
   .formulario {
-    width: 500px;
-    height: 440px;
+    width: 600px;
+    height: 760px;
+    display: flex;
+    justify-content: center;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  .form-input label {
+    font-size: 2rem;
   }
 
   .form-input input {
-    width: 460px;
-    height: 50px;
+    width: auto;
+    height: 70px;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+
+  .form-input input::placeholder {
+    font-size: 2rem;
+  }
+
+  .form-textarea label {
+    font-size: 2rem;
   }
 
   .form-textarea textarea {
-    width: 460px;
+    width: auto;
+    height: 250px;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+
+  .form-textarea textarea::placeholder {
+    font-size: 2rem;
   }
 
   .btnEnviar {
-    width: 460px;
-    height: 50px;
+    width: auto;
+    height: 90px;
     margin-top: 20px;
   }
 
@@ -145,9 +175,9 @@ input:focus, textarea:focus{
   /*======== Contacto ========*/
 
   #Contacto {
-    height: auto;
+    height: 80vh;
     justify-content: flex-start;
-    top: 2950px;
+    top: 3150px;
   }
 
   .mis-redes {
