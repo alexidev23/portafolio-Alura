@@ -10,3 +10,33 @@
 body {
   background-color: #192229;
 }
+
+/* Estilos generales */
+.contenedor {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 750px;
+}
+
+#Titulo {
+  font-size: 3.5rem;
+  font-weight: 500;
+  color: #609dfa;
+  text-align: center;
+  margin: 20px 0;
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  #Titulo {
+    margin: 60px;
+    font-size: 6rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #Titulo {
+    margin-top: 60px;
+    font-size: 3rem;
+  }
+}

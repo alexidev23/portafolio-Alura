@@ -8,35 +8,22 @@
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 718px;
+  top: 650px;
 }
 
-#Titulo {
-  font-size: 3.5rem;
-  font-weight: 500;
-  color: #609dfa;
-  text-align: center;
-  margin-top: 20px;
-}
-
-.img-principal {
-  height: 350px;
-  border-radius: 30%;
-  margin-top: 20px;
+.img-principal--1 {
+  height: 250px;
+  border-radius: 4rem;
 }
 
 .texto {
   max-width: 500px;
-  text-align: justify;
-  margin-top: 20px;
 }
 
 .info {
   font-size: 1rem;
   font-weight: 500;
   color: #c8cdd0;
-  padding: 5px;
-  margin-top: 8px;
 }
 
 .skills-titulo {
@@ -57,15 +44,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 60px;
-  width: 60px;
+  height: 50px;
+  width: 50px;
   background-color: #fff;
   border-radius: 50%;
 }
 
 .cv {
   background-color: #003077;
-  margin: 50px auto;
   height: 60px;
   width: 220px;
   display: flex;
@@ -74,6 +60,7 @@
   border-radius: 32px;
   cursor: pointer;
   overflow: hidden;
+  margin: 30px 0 0 0;
 }
 
 .cv:hover {
@@ -89,7 +76,7 @@
   width: 100%;
   text-decoration: none;
   color: #c8cdd0;
-  font-size: 22px;
+  font-size: 1.3rem;
   font-weight: 700;
 }
 
@@ -103,21 +90,55 @@
   /*======== Sobre Mi ========*/
 
   #Sobremi {
-    top: 1368px;
+    height: 80vh;
+    top: 1230px;
+  }
+
+  .sobremi {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img-principal--1 {
+    display: none;
   }
 
   .texto {
-    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    max-width: 750px;
+    justify-content: center;
+    align-items: center;
   }
 
   .info {
-    font-size: 1.4rem;
+    font-size: 2rem;
     padding: 9px 10px;
     font-weight: 500;
+
   }
 
   .skills-titulo {
+    font-size: 4rem;
     margin: 30px 0;
+  }
+
+  .items {
+    width: 90px;
+    height: 90px;
+  }
+
+  .items img {
+    height: 50px;
+  }
+
+  .cv {
+    height: 100px;
+    width: 300px;
+  }
+
+  .cv a {
+    font-size: 2rem;
   }
 }
 
@@ -127,21 +148,20 @@
 
   #Sobremi {
     justify-content: flex-start;
-    top: 844px;
+    top: 676px;
+    height: auto;
   }
 
-  #Titulo {
-    margin-top: 170px;
-    font-size: 2rem;
-  }
-
-  .img-principal {
+  .img-principal--1 {
     display: none;
   }
 
   .texto {
     max-width: 390px;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .info {
@@ -168,6 +188,11 @@
   }
 
   .skills .items {
-    height: 30px;
+    height: 50px;
+  }
+
+  .cv {
+    justify-content: center;
+    border: 1px blue solid;
   }
 }

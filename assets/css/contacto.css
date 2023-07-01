@@ -4,7 +4,7 @@
   height: 100vh;
   width: 100%;
   position: absolute;
-  top: 2908px;
+  top: 2276px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -12,14 +12,19 @@
 }
 
 .formulario {
-  height: 420px;
-  width: 400px;
-  margin: 20px 0;
   background-color: #142b3d;
   border-radius: 40px;
+  display: flex;
+}
+
+.contenedor__imagen {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
 }
 
 form {
+  width: 400px;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -30,7 +35,7 @@ label {
   color: #c8cdd0;
   font-size: 18px;
   font-weight: 500;
-  margin: 6px 12px;
+  margin: 6px 6px;
 }
 
 .form-input {
@@ -46,6 +51,11 @@ label {
   padding: 10px;
   border: none;
   font-size: 16px;
+  outline: none;
+}
+
+input:focus, textarea:focus{
+  outline: #1e5dbb solid 3px;
 }
 
 .form-input input::placeholder {
@@ -96,18 +106,30 @@ label {
   /*======== Contacto ========*/
 
   #Contacto {
-    top: 6000px;
+    height: 80vh;
+    top: 4790px;
+  }
+
+  .contenedor__imagen {
+    display: none;
   }
 
   .formulario {
+    width: 500px;
     height: 440px;
   }
 
   .form-input input {
+    width: 460px;
     height: 50px;
   }
 
+  .form-textarea textarea {
+    width: 460px;
+  }
+
   .btnEnviar {
+    width: 460px;
     height: 50px;
     margin-top: 20px;
   }
@@ -123,8 +145,9 @@ label {
   /*======== Contacto ========*/
 
   #Contacto {
+    height: auto;
     justify-content: flex-start;
-    top: 3776px;
+    top: 2950px;
   }
 
   .mis-redes {
@@ -140,6 +163,10 @@ label {
     padding: 18px;
     align-items: flex-start;
     justify-content: space-around;
+  }
+
+  .contenedor__imagen {
+    display: none;
   }
 
   form {

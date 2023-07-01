@@ -1,0 +1,219 @@
+/*======== Portafolio ========*/
+#Portafolio {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 1300px;
+  padding-top: 2rem;
+}
+
+.proyectos {
+  width: 1130px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.tarjeta {
+  position: relative;
+  width: 550px;
+  height: 250px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  background-color: #142838;
+  cursor: pointer;
+}
+
+.tarjeta img {
+  width: 550px;
+}
+
+.tarjeta:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.tarjeta__content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+  box-sizing: border-box;
+  background-color: #142838;
+  color: #fff;
+  opacity: 0;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.tarjeta:hover .tarjeta__content {
+  transform: translate(-50%, -50%) rotate(0deg);
+  opacity: 1;
+}
+
+.tarjeta__title {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.tarjeta__description {
+  margin: 10px 0;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.tarjeta:hover svg {
+  scale: 0;
+}
+
+.tecnologias {
+  display: flex;
+  gap: 16px;
+  position: absolute;
+  bottom: 30px;
+}
+
+.html {
+  background-image: url(../../img/html5.svg);
+  height: 40px;
+  width: 40px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.css {
+  background-image: url(../../img/css.svg);
+  height: 40px;
+  width: 40px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.javascript {
+  background-image: url(../../img/javascript.svg);
+  height: 40px;
+  width: 40px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.python {
+  background-image: url(../../img/python.webp);
+  height: 40px;
+  width: 40px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.django {
+  background-image: url(../../img/django.svg);
+  height: 40px;
+  width: 40px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.bootstrap {
+  background-image: url(../../img/bootstrap.svg);
+  height: 40px;
+  width: 40px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.links__proyectos {
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+}
+
+.links__proyectos a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.links__proyectos a i {
+  font-size: 25px;
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  /*======== Portafolio ========*/
+
+  #Portafolio {
+    height: 180vh;
+    top: 2322px;
+  }
+
+  .proyectos {
+    max-width: 900px;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .tarjeta {
+    width: 760px;
+    height: 400px;
+  }
+
+  .tarjeta img {
+    width: 760px;
+    height: 400px;
+  }
+
+  .tarjeta__title {
+    font-size: 3rem;
+  }
+
+  .tarjeta__description {
+    font-size: 1.8rem;
+  }
+
+  .links__proyectos a i {
+    font-size: 3rem;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  /*======== Portafolio ========*/
+
+  #Portafolio {
+    height: 200vh;
+    justify-content: flex-start;
+    top: 1260px;
+  }
+
+  .proyectos {
+    width: 390px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .tarjeta {
+    width: 350px;
+  }
+
+  .tarjeta__info {
+    width: 300px;
+    border: 1px green solid;
+  }
+}
