@@ -38,7 +38,7 @@ const Proyecto = [
     {
         id: 'img5',
         titulo: 'Encriptador de texto',
-        imagen: '../../assets/img/proyectos/encriptador.webp',
+        imagen: 'C:\Users\alexi\OneDrive\Escritorio\portafolio-main\assets\img\proyectos\encriptador.webp',
         descripcion: 'Este proyecto es para el programa One Oracle Next Education, es un encriptador y desencriptador de texto',
         tecnologias: ['html','css','javascript'],
         urlGit: 'https://github.com/alexidev23/Encriptador-de-texto',
