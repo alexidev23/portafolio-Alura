@@ -2,7 +2,7 @@ const Proyecto = [
     {
         id: 'img1',
         titulo: 'QR-Component',
-        imagen: '../../assets/img/proyectos/qr.webp',
+        imagen: './assets/img/proyectos/qr.webp',
         descripcion: 'Idea sacada de FrontENd Mentor, es una tarjeta de un codigo Qr',
         tecnologias: ['html','css'],
         urlGit: 'https://github.com/alexidev23/Desafio-QR-code-component',
@@ -11,7 +11,7 @@ const Proyecto = [
     {
         id: 'img2',
         titulo: 'Calculadora',
-        imagen: '../../assets/img/proyectos/calculadora.webp',
+        imagen: './assets/img/proyectos/calculadora.webp',
         descripcion: 'Es una app de una calculadora',
         tecnologias: ['html','css','javascript'],
         urlGit: 'https://github.com/alexidev23/Calculadora',
@@ -20,7 +20,7 @@ const Proyecto = [
     {
         id: 'img3',
         titulo: 'Proyecto Final - Portafolio',
-        imagen: '../../assets/img/proyectos/portafolioPython.webp',
+        imagen: './assets/img/proyectos/portafolioPython.webp',
         descripcion: 'Este es un proyecto final para el curso de python de Coderhouse, donde realice un porfolio y un blog, para visualizar lo que es el portafolio y el blog tienes que crear un usuario o iniciar sesion',
         tecnologias: ['python','django','bootstrap'],
         urlGit: 'https://github.com/alexidev23/proyectoFinal',
@@ -29,7 +29,7 @@ const Proyecto = [
     {
         id: 'img4',
         titulo: 'Pagina de administracion de gym',
-        imagen: '../../assets/img/proyectos/gymadmin.webp',
+        imagen: './assets/img/proyectos/gymadmin.webp',
         descripcion: 'Pagina wep para un gimnasio para la administracion de los alumnos, cursos y los profesores ',
         tecnologias: ['python','django','bootstrap'],
         urlGit: 'https://github.com/alexidev23/page-admin-gym',
@@ -38,7 +38,7 @@ const Proyecto = [
     {
         id: 'img5',
         titulo: 'Encriptador de texto',
-        imagen: 'C:\Users\alexi\OneDrive\Escritorio\portafolio-main\assets\img\proyectos\encriptador.webp',
+        imagen: './assets/img/proyectos/encriptador.webp',
         descripcion: 'Este proyecto es para el programa One Oracle Next Education, es un encriptador y desencriptador de texto',
         tecnologias: ['html','css','javascript'],
         urlGit: 'https://github.com/alexidev23/Encriptador-de-texto',
